@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://i.pinimg.com/736x/f6/b4/1f/f6b41f48c482cdeeef23ce28391915ac.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+.custom-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 540px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  color: #ba6c6d;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+label {
+  color: #6b4c4c;
+  margin-bottom: 0.5rem;
+}
+
+input.form-control {
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #f4a8a8;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #e28e8e;
+}
+
+.btn-secondary {
+  background-color: #cbbaba;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background-color: #b49d9d;
+}
